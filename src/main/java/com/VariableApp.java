@@ -4,9 +4,8 @@ public class VariableApp {
     public static void main(String[] args) {
         // Step 1
         // question 1
-        String favColor;
-        // then code solution
-        favColor = "Green";
+        String favColor; // Declaration: the data type and variable name
+        favColor = "Green"; // Initialization: assigning the value
         // then use System.out.println() to display results
         System.out.println(favColor);
 
