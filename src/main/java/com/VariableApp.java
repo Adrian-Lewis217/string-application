@@ -5,9 +5,11 @@ public class VariableApp {
         // Step 1
         // question 1
         String favColor; // Declaration: the data type and variable name
+
         favColor = "Green"; // Initialization: assigning the value
+
         // then use System.out.println() to display results
-        System.out.println(favColor);
+        System.out.println("My favorite color: " + favColor);
 
         // question 2
         // declare variables here
@@ -15,7 +17,7 @@ public class VariableApp {
         // then code solution
         classYear = 2026;
         // then use System.out.println() to display results
-        System.out.println(classYear);
+        System.out.println("Class Year: " + classYear);
 
         // question 3
         // declare variables here
@@ -23,7 +25,7 @@ public class VariableApp {
         // then code solution
         middleInitial = 'C';
         // then use System.out.println() to display results
-        System.out.println(middleInitial);
+        System.out.println("Middle Initial: " + middleInitial);
 
         // question 4
         // declare variables here
@@ -31,7 +33,7 @@ public class VariableApp {
         // then code solution
         havePet = true;
         // then use System.out.println() to display results
-        System.out.println(havePet);
+        System.out.println("Do I have pets: " + havePet);
 
         // question 5
         // declare variables here
@@ -39,7 +41,7 @@ public class VariableApp {
         // then code solution
         remark = "Today is a good day.";
         // then use System.out.println() to display results
-        System.out.println(remark);
+        System.out.println("A Remark: " + remark);
 
         // step 2
         // question 1
@@ -84,7 +86,7 @@ public class VariableApp {
         greeting1 = "There are " + numDayInWeek + " in a week.";
         greeting2 = "The coffee is " + priceOfCoffee + " today.";
         greeting3 = "My favorite letter is " + favLetter + ".";
-        greeting4 = "So it was " + isRaining + " that it was going to rain.";
+        greeting4 = "So it was " + isRaining + " that it was going to rain today.";
         // then use System.out.println() to display results
         System.out.println(greeting1);
         System.out.println(greeting2);
